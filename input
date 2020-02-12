@@ -1,0 +1,7 @@
+from __future__ import print_function
+
+def main():
+    x = str(raw_input())
+    print(x.strip(),end="")
+
+main()
