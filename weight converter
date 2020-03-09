@@ -1,0 +1,11 @@
+print ("Enter Pounds or Kilo for conversions")
+a=input("pounds or kilos")
+if a =='pounds':
+    pounds=int(input("Enter a number in Kilos to convert to pounds: "))
+    pounds=pounds * 2.2
+    print (pounds)
+else:
+    kilo=''
+    kilo=int(input("Enter the number in pounds to convert to kilos:"))
+    kilo=kilo/2.2
+    print(kilo)
